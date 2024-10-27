@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Halaman Contact</title>
-</head>
-
-<body>
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-    <h1>Halaman Contact</h1>
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h3 class="text-xl">Ini Adalah Halaman Contact</h3>
     <ul>
         <li>
             <a href="https://instagram.com/muhraflyalfrz">Instagram</a>
@@ -25,6 +12,4 @@
             <a href="https://github.com/raflyalfrz">Github</a>
         </li>
     </ul>
-</body>
-
-</html>
+</x-layout>
